@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+#container1{
+  width: auto;
+  max-width: 45%;
+  height:auto;
+  margin-top: 10%;
+  margin-left: 5%;
+ 
+  
+}
+#container2{
+    display: inline-block;
+    margin-top: 10%;
+
+}
+  
+.row{
+    display: flex;
+}
