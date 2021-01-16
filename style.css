@@ -1,18 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@900&display=swap');
+
+body {
+  width:75%;
+  margin:auto;
+  
+}
 
 .row{
+  margin :100px auto;
   display: flex;
-  direction: right;
-}
-.row img{
-  width: auto;
-  max-width: 45%;
-  height:auto;
-  margin-top: 10%;
-  margin-left: 5%;
+  flex-direction: row;
 }
 
-#box2{
-  margin:auto;
+
+#header{
+  width: 75%;
+  color:grey;
+  font-size: 1.5vw;
+  font-family:'Roboto Mono', monospace;
+  word-spacing: 5px;
 
 }
 
+img{
+ 
+  max-width: 100%;
+  
+  }
+
+
+h2{
+  font-size:40px;
+  font-family:'Roboto Mono', monospace;
+  word-spacing: 5px;
+}
+p{
+  font-size:20px;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.5;
+}
+
+button{
+  background-color: black;
+  color:white;
+  font-family: 'Roboto Mono', monospace;
+  padding: 12px;
+}
+
+#footer{
+  font-size:10px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+ 
+}
+
+@media screen and (max-width: 800px) {
+  .row{
+    display:block;
+    width:100%;
+    margin:0;
+    background-color: red;
+     }
+  
+  
+  }
